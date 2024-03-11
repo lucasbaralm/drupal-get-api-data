@@ -1,0 +1,13 @@
+api.facts:
+  title: 'List of Facts'
+  description: 'List of  Retrieved Facts'
+  parent: main
+  menu_name: main
+  route_name: api.facts
+
+api.breeds:
+  title: 'List of Breeds'
+  description: 'List of  Retrieved Breeds'
+  parent: main
+  menu_name: main
+  route_name: api.breeds

@@ -1,0 +1,4 @@
+name: Get Cats Data API
+type: module
+description: 'Module that helps using drupal as client for the Cats API.'
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,6 @@
+api:
+  endpoint: 'https://catfact.ninja/'
+  attempt_number: '10'
+  limit: '100'
+  sleep: '1'
+  no_results_message: 'No results could be retrieved from the Cats Facts API.'

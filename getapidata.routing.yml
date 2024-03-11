@@ -1,0 +1,39 @@
+api.fact:
+  path: '/api/fact'
+  defaults:
+    _controller: '\Drupal\getapidata\Controller\GetDataController::getFact'
+    _title: 'A random cat fact'
+  requirements:
+    _permission: 'access content'
+  option:
+    no_cache: 'TRUE'
+
+api.breeds:
+  path: '/api/breeds'
+  defaults:
+    _controller: '\Drupal\getapidata\Controller\GetDataController::getBreeds'
+    _title: 'Cat breeds list'
+  requirements:
+    _permission: 'access content'
+  option:
+    no_cache: 'TRUE'
+
+api.facts:
+  path: '/api/facts'
+  defaults:
+    _controller: '\Drupal\getapidata\Controller\GetDataController::getFacts'
+    _title: 'Cat facts list'
+  requirements:
+    _permission: 'access content'
+  option:
+    no_cache: 'TRUE'
+  
+api.form:
+  path: 'api/form'
+  defaults: 
+    _form: '\Drupal\getapidata\Form\ConfigForm'
+    _title: Api Data Configuration
+  options:
+    no_cache: 'TRUE'
+  requirements:
+      _permission: 'access content'

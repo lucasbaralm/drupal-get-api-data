@@ -1,0 +1,7 @@
+api:
+  version: 1.x
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+  js:
+    js/pagination.js: {}

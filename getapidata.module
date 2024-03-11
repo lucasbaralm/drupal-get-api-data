@@ -1,0 +1,52 @@
+<?php
+
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
+
+// function getFacts (string $page) {
+//   $client = new Client();
+//   $facts = [];
+
+// try {
+//   $response = $client->get('https://catfact.ninja/facts?page='.$page);
+//   $currentPage = json_decode($response->getBody(), TRUE)['current_page']['data'];
+//   foreach($currentPage as $facts) {
+//     print_r($facts);
+//   }
+// }
+// catch (RequestException $e) {
+//   // log exception
+// }
+
+// }
+
+// function getFact (string $page) {
+//   $client = new Client();
+//   $facts = [];
+
+// try {
+//   $response = $client->get('https://catfact.ninja/fact');
+//   $currentPage = json_decode($response->getBody(), TRUE)['fact'];
+//   print_r($facts);
+
+// }
+// catch (RequestException $e) {
+//   // log exception
+// }
+// }
+
+// function getBreeds (string $page) {
+//   $client = new Client();
+//   $breeds = [];
+
+// try {
+//   $response = $client->get('https://catfact.ninja/breeds?page='.$page);
+//   $currentPage = json_decode($response->getBody(), TRUE)['current_page']['data'];
+//   foreach($currentPage as $breeds) {
+//     print_r($breeds);
+//   }
+// }
+// catch (RequestException $e) {
+//   // log exception
+// }
+// }
